@@ -1,6 +1,10 @@
-require "dealio/version"
+#environment file
+require "nokogiri"
+require 'pry'
 
-module Dealio
-  class Error < StandardError; end
-  # Your code goes here...
-end
+
+
+require_relative "dealio/version"
+require_relative "dealio/cli"
+
+
