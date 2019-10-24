@@ -1,0 +1,3 @@
+class Dealio::Scraper 
+  
+end
